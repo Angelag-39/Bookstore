@@ -4,7 +4,7 @@ import "./Card.css"
 
 function Card(props){
     return(
-        <div id="main">
+        <div class="container">
             <div id="avaliacao">
                 <div id="imagem">
                     <img src={props.imagem} alt="imagem" width={70} />
@@ -13,11 +13,9 @@ function Card(props){
                     <h1>{props.titulo}</h1>
                     <p>{props.texto}</p>
                 </div>
-
             </div>
-            
-
         </div>
+            
     );
 }
 export default Card;

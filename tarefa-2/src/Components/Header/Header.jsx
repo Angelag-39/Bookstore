@@ -4,7 +4,7 @@ function Header(props){
     return(
         <header>
 
-          <div class="container">
+          <div class="container1">
               <div id="foto">
               <img src={props.imagem} alt="imagem" width={150}/>
               </div>
