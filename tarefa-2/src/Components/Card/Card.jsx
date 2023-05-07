@@ -1,21 +1,20 @@
 import React from "react";
-import "./Card.css"
+import "./Card.css";
+import LivroAvaliado from "../LivroAvaliado/LivroAvaliado";
 
 
 function Card(props){
     return(
-        <div class="container">
-            <div id="avaliacao">
-                <div id="imagem">
-                    <img src={props.imagem} alt="imagem" width={70} />
-                </div>
-                <div id="texto">
-                    <h1>{props.titulo}</h1>
-                    <p>{props.texto}</p>
-                </div>
-            </div>
+        <div className="card">
+           <LivroAvaliado nota="5" capa={props.imagem} />
+           <div className="resenha">
+            <h4>{props.titulo}</h4>
+            <p>{props.resenha}</p>
+           </div>
+        
         </div>
-            
+        
     );
 }
+
 export default Card;

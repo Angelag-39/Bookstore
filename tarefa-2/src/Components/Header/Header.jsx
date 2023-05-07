@@ -1,18 +1,20 @@
 import React from "react";
 import './Header.css'
-function Header(props){
+
+
+function Header(){
     return(
         <header>
-
-          <div class="container1">
-              <div id="foto">
-              <img src={props.imagem} alt="imagem" width={150}/>
-              </div>
-              <div class="perfil">{props.titulo}</div>
-              <div class="lidos">{props.lidos}</div>
-              <div class="pendientes">{props.pendientes}</div>
-        
-          </div>
+            <img className="perfil" src="https://i.ibb.co/XtqNx0Q/Design-sem-nome-removebg-preview-1.png" alt=""/>
+          <span className="nome-usuario"> Angela Daniela</span>
+            <div className="lidos">
+                <span>100</span>
+                <span>lidos</span>
+            </div>
+            <div className="vou-ler">
+                <span>50</span>
+                <span>vou ler</span>
+            </div>
         </header>
      )
 }
