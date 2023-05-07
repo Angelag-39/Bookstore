@@ -9,6 +9,7 @@ import Estante from './Components/Estante/Estante';
 import Menu from './Components/Menu/Menu';
 import Home from './Pages/Home/Home';
 import Resenha from './Pages/Resenha/Resenha';
+import Rodape from './Components/Rodape/Rodape';
 
 
 function App() {
@@ -24,14 +25,16 @@ function App() {
           <li>
           <Link to="/Resenha">Resenha</Link>
           </li>
+         
         </ul>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Resenha' element={<Resenha/>}/>
+     
         </Routes>
 
       </Router>
-
+        
         <h2>Minha Estante</h2>
         <div className='principal'>
         <Menu/>
@@ -49,10 +52,12 @@ function App() {
           titulo="A cabana"
           resenha="Um homem vive atormentado após perder a sua filha mais nova, cujo corpo nunca foi encontrado, mas sinais de que ela teria sido violentada e assassinada são encontrados em uma cabana nas montanhas. " />
       </div>
-      
+      <div className='principal'>
+      <Rodape/>
+      </div>
         </div>
       
-   
+ 
    
         
   

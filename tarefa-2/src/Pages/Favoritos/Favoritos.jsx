@@ -1,11 +1,11 @@
 import React from "react";
 import "./Favoritos.css"
-import Carousel from "../../Carousel/Carousel";
+import Home from "../Home/Home";
 
 function Favoritos(){
     return(
         <div>
-            <Carousel/>
+          <Home/>
         </div>
     );
 }
