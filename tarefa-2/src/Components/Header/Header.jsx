@@ -12,7 +12,7 @@ function Header(){
                 <span>lidos</span>
             </div>
             <div className="vou-ler">
-                <span>50</span>
+                <span>20</span>
                 <span>vou ler</span>
             </div>
         </header>

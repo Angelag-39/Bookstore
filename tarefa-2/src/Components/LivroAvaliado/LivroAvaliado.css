@@ -1,7 +1,7 @@
 .capa-livro{
     width: 100px;
     height: 150px;
-    border: solid 2px rgb(236, 178, 197);
+    border: solid 2px#abcecf;
 }
 .livro-avaliado{
     margin: 20px 30px;
