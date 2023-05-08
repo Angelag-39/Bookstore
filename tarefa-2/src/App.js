@@ -10,6 +10,7 @@ import Menu from './Components/Menu/Menu';
 import Home from './Pages/Home/Home';
 import Resenha from './Pages/Resenha/Resenha';
 import Rodape from './Components/Rodape/Rodape';
+import Teste from './UseEfect';
 
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
           resenha="Um homem vive atormentado após perder a sua filha mais nova, cujo corpo nunca foi encontrado, mas sinais de que ela teria sido violentada e assassinada são encontrados em uma cabana nas montanhas. " />
       </div>
       <div className='principal'>
+        <Teste/>
       <Rodape/>
       </div>
         </div>
